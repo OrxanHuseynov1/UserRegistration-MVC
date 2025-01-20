@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyects\\UserRegistation-MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|d:\\proyects\\userregistation-mvc\\userregistation-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\views\\adduser\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\views\\adduser\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\controllers\\addusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\controllers\\addusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\helpers\\usersdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\helpers\\usersdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\userregistation-mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\userregistation-mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|D:\\Proyects\\UserRegistation-MVC\\userregistation-mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7F54BDA-C83F-41AC-B941-EE80E815CC5B}|UserRegistation-MVC\\UserRegistation-MVC.csproj|solutionrelative:userregistation-mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Views\\AddUser\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Views\\AddUser\\AddUser.cshtml",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Views\\AddUser\\AddUser.cshtml",
+              "RelativeToolTip": "UserRegistation-MVC\\Views\\AddUser\\AddUser.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T13:02:19.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddUserController.cs",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Controllers\\AddUserController.cs",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Controllers\\AddUserController.cs",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Controllers\\AddUserController.cs",
+              "RelativeToolTip": "UserRegistation-MVC\\Controllers\\AddUserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T13:00:41.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "UserRegistation-MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T07:56:16.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Entities\\User.cs",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Entities\\User.cs",
+              "RelativeToolTip": "UserRegistation-MVC\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:19:32.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRegistation-MVC",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\UserRegistation-MVC.csproj",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\UserRegistation-MVC.csproj",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\UserRegistation-MVC.csproj",
+              "RelativeToolTip": "UserRegistation-MVC\\UserRegistation-MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-19T07:19:13.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersData.json",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Helpers\\UsersData.json",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Helpers\\UsersData.json",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Helpers\\UsersData.json",
+              "RelativeToolTip": "UserRegistation-MVC\\Helpers\\UsersData.json",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAIwJIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T07:12:56.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UserRegistation-MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAE4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T07:11:58.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UserRegistation-MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:10:17.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Startup.cs",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Startup.cs",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Startup.cs",
+              "RelativeToolTip": "UserRegistation-MVC\\Startup.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:10:11.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Program.cs",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\Program.cs",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\Program.cs",
+              "RelativeToolTip": "UserRegistation-MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T07:10:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "UserRegistation-MVC\\appsettings.Development.json",
+              "ToolTip": "D:\\Proyects\\UserRegistation-MVC\\UserRegistation-MVC\\appsettings.Development.json",
+              "RelativeToolTip": "UserRegistation-MVC\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T07:10:03.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
