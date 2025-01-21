@@ -39,3 +39,4 @@ D:\Proyects\UserRegistation-MVC\UserRegistation-MVC\obj\Debug\net5.0\UserRegista
 D:\Proyects\UserRegistation-MVC\UserRegistation-MVC\obj\Debug\net5.0\ref\UserRegistation-MVC.dll
 D:\Proyects\UserRegistation-MVC\UserRegistation-MVC\obj\Debug\net5.0\UserRegi.D3A83F38.Up2Date
 D:\Proyects\UserRegistation-MVC\UserRegistation-MVC\obj\Debug\net5.0\Razor\Views\AddUser\AddUser.cshtml.g.cs
+D:\Proyects\UserRegistation-MVC\UserRegistation-MVC\obj\Debug\net5.0\UserRegistation-MVC.sourcelink.json

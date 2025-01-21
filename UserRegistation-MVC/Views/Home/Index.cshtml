@@ -69,7 +69,37 @@
            .user-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
+           }
+           .user-card .buttons {
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .user-card .buttons a {
+                padding: 10px 20px;
+                border-radius: 5px;
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                transition: background-color 0.3s;
+            }
+
+            .user-card .buttons .update-btn {
+                background-color: #007bff;
+            }
+
+            .user-card .buttons .delete-btn {
+                background-color: #dc3545;
+            }
+
+            .user-card .buttons .update-btn:hover {
+                background-color: #0056b3;
+            }
+
+            .user-card .buttons .delete-btn:hover {
+                background-color: #c82333;
+            }
         </style>
     </head>
 
@@ -86,7 +116,13 @@
                     <h1>@user.Name @user.Surname</h1>
                     <p>Age: @(DateTime.Now.Year - user.BirthDate.Year)</p>
                     <p>Contact: @user.Number</p>
+                    <div class="buttons">
+                        <a href="@Url.Action("UpdateUser", "AddUser", new { id = user.Id })" class="update-btn">Update</a>
+                        <a asp-action="DeleteUser" asp-controller="AddUser" asp-route-id="@user.Id" class="delete-btn">Delete</a>
+                    </div>
                 </div>
+
+
             }
         </div>
     </body>
