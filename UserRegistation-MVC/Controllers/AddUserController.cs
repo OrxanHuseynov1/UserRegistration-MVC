@@ -24,6 +24,14 @@ namespace UserRegistation_MVC.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult UpdateUser(int id)
+        {
+            var user = _users.FirstOrDefault(x => x.Id == id);
+            if(user is null) return NotFound();
+            return View(user);
+        }
+
         [HttpPost]
         public IActionResult AddUser(User user)
         {
@@ -50,7 +58,7 @@ namespace UserRegistation_MVC.Controllers
         public IActionResult DeleteUser(int id)
         {
             var user = _users.FirstOrDefault(u => u.Id == id);
-            if (user == null)
+            if (user is null)
             {
                 return NotFound();
             }
@@ -62,7 +70,29 @@ namespace UserRegistation_MVC.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        public List<User> GetAllUser()
+        [HttpPost]
+        public IActionResult UpdateUser(User updateUser)
+        {
+            var user = _users.FirstOrDefault(u => u.Id == updateUser.Id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            user.Name = updateUser.Name;
+            user.Surname = updateUser.Surname;
+            user.BirthDate = updateUser.BirthDate;
+            user.Number = updateUser.Number;
+            user.ImagePath = updateUser.ImagePath;
+
+
+
+            SaveUsers();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+
+        public List<User> GetAllUser()  
         {
             if (!System.IO.File.Exists(path))
             {

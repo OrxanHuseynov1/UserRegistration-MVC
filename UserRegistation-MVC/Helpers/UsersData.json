@@ -64,14 +64,6 @@
     "Number": "\u002B19991234567"
   },
   {
-    "Id": 9,
-    "ImagePath": "https://randomuser.me/api/portraits/men/59.jpg",
-    "Name": "Henry",
-    "Surname": "Martinez",
-    "BirthDate": "1987-08-25T00:00:00",
-    "Number": "\u002B12101234567"
-  },
-  {
     "Id": 10,
     "ImagePath": "https://randomuser.me/api/portraits/men/10.jpg",
     "Name": "Amelia",
@@ -81,7 +73,7 @@
   },
   {
     "Id": 11,
-    "ImagePath": "https://randomuser.me/api/portraits/men/11.jpg",
+    "ImagePath": "https://randomuser.me/api/portraits/women/51.jpg",
     "Name": "Alexander",
     "Surname": "Lopez",
     "BirthDate": "1986-05-14T00:00:00",
@@ -158,14 +150,6 @@
     "Surname": "Harris",
     "BirthDate": "1993-11-30T00:00:00",
     "Number": "\u002B15011234567"
-  },
-  {
-    "Id": 21,
-    "ImagePath": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
-    "Name": "Orxan",
-    "Surname": "Huseynov",
-    "BirthDate": "2005-05-05T00:00:00",
-    "Number": "0505762454"
   },
   {
     "Id": 23,

@@ -1,0 +1,93 @@
+﻿
+
+@model UserRegistation_MVC.Entities.User
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .form-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-container label {
+            display: block;
+            text-align: left;
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .form-container button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Update User</h1>
+        <form asp-action="UpdateUser" asp-controller="AddUser" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" value="@Model.Name" required />
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="Surname" value="@Model.Surname" required />
+
+            <label for="birthDate">Birth Date:</label>
+            <input type="date" id="birthDate" name="BirthDate" value="@Model.BirthDate.ToString("yyyy-MM-dd")" required />
+
+            <label for="number">Phone Number:</label>
+            <input type="text" id="number" name="Number" value="@Model.Number" required />
+
+            <label for="imagePath">Image URL:</label>
+            <input type="text" id="imagePath" name="ImagePath" value="@Model.ImagePath" required />
+
+            <button type="submit">Save User</button>
+        </form>
+    </div>
+</body>
+</html>

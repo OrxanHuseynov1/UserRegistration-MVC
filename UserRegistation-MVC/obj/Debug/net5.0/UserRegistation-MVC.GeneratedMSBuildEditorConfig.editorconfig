@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserRegistation_MVC
-build_property.ProjectDir = D:\Proyects\UserRegistation-MVC\UserRegistation-MVC\
+build_property.ProjectDir = C:\Users\Husey_so01\Source\Repos\UserRegistration-MVC\UserRegistation-MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
