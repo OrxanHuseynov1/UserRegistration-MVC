@@ -100,13 +100,43 @@
             .user-card .buttons .delete-btn:hover {
                 background-color: #c82333;
             }
+
+            .combo-box {
+                padding: 8px 12px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                background-color: white;
+                color: #333;
+                cursor: pointer;
+            }
+
+            .header-actions {
+                display: flex;
+                align-items: center;
+                gap: 20px; 
+            }
+
+            .header-actions a {
+                margin: 0; 
+            }
         </style>
     </head>
 
     <body>
         <div class="header">
             <h1>All Users</h1>
-            <a href="@Url.Action("AddUser","AddUser")">Add User</a>
+            <div class="header-actions">
+                <a href="@Url.Action("AddUser","AddUser")">Add User</a>
+                <form asp-controller="Home" asp-action="SortUsers" method="post" style="display: inline;">
+                    <select id="sortOptions" name="sort" class="combo-box" onchange="this.form.submit()">
+                        <option>---</option>
+                        <option value="az">A-Z</option>
+                        <option value="za">Z-A</option>
+                    </select>
+                </form>
+
+            </div>
         </div>
         <div class="user-grid">
             @foreach (var user in Model)
@@ -117,8 +147,8 @@
                     <p>Age: @(DateTime.Now.Year - user.BirthDate.Year)</p>
                     <p>Contact: @user.Number</p>
                     <div class="buttons">
-                        <a href="@Url.Action("UpdateUser", "AddUser", new { id = user.Id })" class="update-btn">Update</a>
-                        <a asp-action="DeleteUser" asp-controller="AddUser" asp-route-id="@user.Id" class="delete-btn">Delete</a>
+                    <a asp-action="UpdateUser" asp-controller="AddUser" asp-route-id="@user.Id" class="update-btn">Update</a>
+                    <a asp-action="DeleteUser" asp-controller="AddUser" asp-route-id="@user.Id" class="delete-btn">Delete</a>
                     </div>
                 </div>
 
